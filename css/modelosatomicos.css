@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#isso aqui é tamanho máximo da janela tá 
+
+html,body{
+    height: 100%;
+    overflow-x: hidden;
+}
+.center{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 2000px;
+    margin: -20px auto;
+    padding: 0 2%;
+  
+}
+.header{
+    height: 200px ;
+    padding: 20px 0;
+   
+
+}
+
+.logo{
+    width: 1000000%;
+    margin-top: 20px;
+    margin-left: 1140px;
+}
+    
+
+
+section.sobre{
+    height: calc(140% - 200px);
+    position: relative;
+    margin-right: -500px;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 174, 0, 1)), to(rgb(255, 255, 255)));
+    background: -moz-linear-gradient(top, rgba(255, 174, 0, 1)), rgba(138, 255, 255, 1);
+    filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr='#CCCCCC', EndColorStr='#000000');           
+
+}
+.textp{
+    margin-top: 60px;
+    margin-left: 20px;
+
+    /*aqui a margin left era 0% */
+  
+
+}
+.textp h1{
+    font-size: 70px;
+    color: aliceblue;
+   
+}
+
+.textp h3{
+    color: aliceblue;
+}
+.textp p{
+    margin: 20px 0;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: bold;
+    max-width: 500px;
+}
+/*
+.textp button{
+    border: 0;
+    background-color: rgba(0, 117, 255, 1);
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    width: 300px;
+    height: 30px;
+    cursor: pointer;
+}
+*/
+
+.botonsaiba{
+    margin-top: 370px;
+    margin-left: -710px;
+}
+
+.fundo{
+    margin: 0px;
+}
+
+.texto1{
+    margin-top: -400px;
+    margin-left: 700px;
+    text-align:justify
+
+}
+.texto1 h1{
+    font-size: 50px;
+    text-align:justify
+}
+.texto1 p{
+    font-size: 18px;
+    margin: 20px 0;
+    color: rgb(0, 0, 0);
+    max-width: 500px;
+}
+.ajuda {
+    margin-top: -500px;
+    margin-left: -600px;
+}
+.ajud img{
+    max-width: 2000px;
+    margin-top: 500px;
+    margin-left: 10px;
+}
+    .ajud2{
+   
+        margin-left: -100px;
+        text-align: center 
+    
+    }
+    .ajud2 img {
+        margin-top: 200px;
+        font-size: 50px;
+        max-height: 700px;
+        margin-left: -1220px;
+    }
+    .ajud2 h1{
+        margin-top: -400px;
+        font-size: 50px;
+        max-height: 700px;
+        margin-left: 100px;
+    
+    }
+
+   
+    .ajud2 p{
+        font-size: 18px;
+        margin: 20px 0;
+        color: black;
+        max-width: 600px;
+         margin-left: 100px;
+         text-align:justify
+    
+    
+    }
+
+
+.ajud3{
+   
+    margin-left: -100px;
+    text-align: center 
+
+}
+.ajud3 img {
+    margin-top: 200px;
+    font-size: 50px;
+    max-height: 700px;
+    margin-left: 100px;
+}
+.ajud3 h1{
+    margin-top: -400px;
+    font-size: 50px;
+    max-height: 700px;
+    margin-left: -500px;
+
+}
+
+
+.ajud3 p{
+    font-size: 18px;
+    margin: 20px 0;
+    color: black;
+    max-width: 600px;
+     margin-left: -500px;
+     text-align:justify
+
+
+}
+.ajud4{
+   
+    margin-left: -100px;
+    text-align: center 
+
+}
+.ajud4 img {
+    margin-top: 200px;
+    font-size: 50px;
+    max-height: 700px;
+    margin-left: -1220px;
+}
+.ajud4 h1{
+    margin-top: -400px;
+    font-size: 50px;
+    max-height: 700px;
+    margin-left: 100px;
+
+}
+
+
+.ajud4 p{
+    font-size: 18px;
+    margin: 20px 0;
+    color: black;
+    max-width: 600px;
+     margin-left: 100px;
+     text-align:justify
+
+
+}

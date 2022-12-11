@@ -1,0 +1,371 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#isso aqui é tamanho máximo da janela tá 
+
+html,body{
+    height: 100%;
+    overflow-x: hidden;
+}
+
+/* --- Carrossel --- */
+/* ------- Banner -------- */
+@media(min-width: 768px){
+    .nav-next-carrossel{
+        color: #4d4d4d !important;
+        font-size: 60px;
+        right: 1% !important;
+        display: flex !important;
+        flex-direction: row-reverse;
+    }
+    .nav-prev-carrossel{
+        color: #4d4d4d !important;
+        font-size: 60p0x;
+        left: 1% !important;
+    }
+            
+            }
+.nav-next-carrossel,
+.nav-prev-carrossel{
+    z-index: 999 !important;
+}
+
+.carrossel-banner{
+    position: relative;
+    padding: 50px 0;
+}
+
+
+.img-carrossel{
+    max-width: 100px;
+}
+
+.swiper-slide{
+    text-align: center;
+    
+}
+
+    
+
+@media(max-width: 768px){
+    .nav-next-carrossel{
+        color: #4d4d4d !important;
+        font-size: 50px !important;
+        right: 2% !important;
+        display: flex !important;
+        flex-direction: row-reverse;
+    }
+    .nav-prev-carrossel{
+        color: #4d4d4d !important;
+        font-size: 50px !important;
+        left: 2% !important;
+    }
+}
+/* ---------------------------- */
+
+.center{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 2000px;
+    margin: -20px auto;
+    padding: 0 2%;
+  
+}
+.header{
+    height: 200px ;
+    padding: 20px 0;
+   
+
+}
+
+.logo{
+    width: 1000000%;
+    margin-top: 190px;
+    margin-left: -1170px;
+}
+
+
+section.sobre{
+    height: calc(140% - 200px);
+    position: relative;
+    margin-right: -500px;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(46, 181, 223, 1)), to(rgba(138, 255, 255, 1)));
+    background: -moz-linear-gradient(top, rgba(46, 181, 223, 1), rgba(138, 255, 255, 1));
+    filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr='#CCCCCC', EndColorStr='#000000');           
+
+}
+
+.textp{
+    margin-top: 5px;
+    margin-left: 20px;
+
+    /*aqui a margin left era 0% */
+  
+
+}
+.textp h1{
+    margin-top: 5px;
+    font-size: 80px;
+    color: aliceblue;
+   
+}
+
+.textp h3{
+    color: aliceblue;
+}
+.textp p{
+    margin: 20px 0;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: bold;
+    max-width: 500px;
+}
+
+/*
+.textp button{
+    border: 0;
+    background-color: rgba(0, 117, 255, 1);
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    width: 300px;
+    height: 30px;
+    cursor: pointer;
+}
+    */
+.botonsaiba{
+    margin-top: 500px;
+    margin-left: -795px;
+
+}
+.fundo{
+    margin: 0px;
+}
+.celula img{
+    max-width: 2000px;
+    margin-top: 100px;
+    margin-left: 40px;
+}
+.texto1{
+    margin-top: -400px;
+    margin-left: 700px;
+    text-align:justify
+
+}
+.texto1 h1{
+    font-size: 50px;
+    text-align:justify
+}
+.texto1 p{
+    font-size: 18px;
+    margin: 20px 0;
+    color: rgb(0, 0, 0);
+    max-width: 500px;
+    text-align:justify
+   
+}
+.texto2{
+    margin-top: 200px;
+    margin-left: 60px;
+    text-align: center 
+
+}
+.texto2 h1{
+    font-size: 50px;
+}
+.texto2 p{
+    font-size: 18px;
+    margin: 20px 0;
+    color: black;
+    max-width: 1250px;
+    text-align:justify
+}
+.eucarionte{
+   
+    margin-left: 60px;
+    text-align: center 
+
+}
+.eucarionte h1{
+    margin-top: -500px;
+    font-size: 50px;
+    max-width: 700px;
+}
+.eucarionte p{
+    font-size: 18px;
+    margin: 20px 0;
+    color: black;
+    max-width: 800px;
+    text-align:justify
+
+}
+.eucarionte img{
+    max-width: 2000px;
+    margin-top: 50px;
+    margin-left: 650px;
+
+}
+
+/*células procariontes*/
+
+.procarionte{
+   
+    margin-left: 60px;
+    text-align: center 
+
+}
+.procarionte h1{
+    margin-top: -350px;
+    font-size: 50px;
+    max-height: 700px;
+    margin-left: 450px;
+
+}
+.procarionte p{
+    font-size: 18px;
+    margin: 20px 0;
+    color: black;
+    max-width: 800px;
+     margin-left: 450px;
+     text-align:justify
+
+
+}
+.procarionte img{
+    max-width: 2000px;
+    margin-top: 70px;
+    margin-left: -860px;
+
+}
+
+/* aba feita com a finalidade de concertar primeiro tópico*/
+
+
+/*.conhecendo{
+   
+    margin-left: 60px;
+    text-align: center 
+
+}
+.conhecendo h1{
+    margin-top: -350px;
+    font-size: 50px;
+    max-height: 700px;
+    margin-left: 450px;
+
+}
+.conhecendo p{
+    font-size: 18px;
+    margin: 20px 0;
+    color: black;
+    max-width: 800px;
+     margin-left: 450px;
+     text-align:justify
+
+
+}
+.conhecendo img{
+    max-width: 2000px;
+    margin-top: 70px;
+    margin-left: -860px;
+
+}*/
+
+.organela{
+   
+    margin-left: 60px;
+    text-align: center 
+
+}
+.organela h1{
+    margin-top: -520px;
+    font-size: 50px;
+    max-width: 700px;
+}
+.organela p{
+    font-size: 18px;
+    margin: 20px 0;
+    color: black;
+    max-width: 700px;
+    text-align:justify
+}
+
+
+
+.organela img{
+        max-width: 2000px;
+        margin-top: 150px;
+        margin-left: 700px;
+
+}
+.respiraçãoc{
+   
+    margin-left: 60px;
+    text-align: center 
+
+}
+.respiraçãoc h1{
+    margin-top: -2020px;
+    font-size: 50px;
+    max-height: 700px;
+    margin-left: 820px;
+    text-align: left;
+
+}
+.respiraçãoc p{
+    font-size: 18px;
+    margin: 20px 0;
+    color: black;
+    max-width: 430px;
+     margin-left: 820px;
+     text-align:justify
+    
+
+
+}
+.respiraçãoc h5{
+    font-size: 18px;
+    margin: 20px 0;
+    color: black;
+    max-width: 400px;
+     margin-left: 820px;
+     text-align:justify
+}
+.respiraçãoc img{
+    max-width: 2000px;
+    margin-top: 70px;
+    margin-left: -500px;
+    }
+
+    .bacteria{
+   
+        margin-left: 60px;
+        text-align: center 
+    
+    }
+    .bacteria h1{
+        margin-top: -680px;
+        font-size: 50px;
+        max-width: 700px;
+    }
+    .bacteria p{
+        font-size: 18px;
+        margin: 20px 0;
+        color: black;
+        max-width: 700px;
+        text-align:justify
+    }
+    
+    
+    
+    .bacteria img{
+            max-width: 3000px;
+            margin-top: 150px;
+            margin-left: 750px;
+    
+    }
